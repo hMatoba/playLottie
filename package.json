@@ -1,0 +1,15 @@
+{
+  "name": "playlottie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd app && node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lottie-web": "^5.5.4"
+  }
+}

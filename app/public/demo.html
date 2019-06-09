@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  
+  <meta charset="UTF-8" />
+  <title>Demo</title>
+  <style>
+    #demo {
+      width: 400px;
+      height: 400px;
+    }
+  </style>
+  
+</head>
+<body>
+  
+  <!-- lottie animation region  -->
+  <div id="demo"> </div>
+  
+  <!-- load lottie and animation json -->
+  <script src="js/lottie.js"></script>
+  <script>
+    lottie.loadAnimation({
+      container: document.getElementById('demo'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: '/lottie_json/Voice.json'
+    });
+  </script>
+
+</body>
+</html>
